@@ -2,6 +2,8 @@
 
 > 夜间自动压暗工具 —— 实时感知屏幕白底，自动盖上一层可调的「纱」。
 > 前身：夜间护眼（night-lull），2026-10-03 更名并全面重写。
+>
+> GitHub：https://github.com/3511440694huang-oss/dark-veil ｜ 下载：[Releases](https://github.com/3511440694huang-oss/dark-veil/releases)
 
 ## 功能
 
@@ -56,3 +58,7 @@ bash build.sh :app:assembleRelease     # release
 - v1.2.0：极限检测、无级变灰提速
 - v1.1.0：检测提速、自定义压暗强度、变灰加速
 - v1.0.0：首版（MediaProjection 抓屏 + 白度分析 + 自动压暗）
+
+## 许可证
+
+本项目以 [MIT License](LICENSE) 开源 · © 2026 3511440694huang-oss
