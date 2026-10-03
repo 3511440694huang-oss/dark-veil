@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">暗纱</string>
+    <string name="notif_channel_name">暗纱值守</string>
+    <string name="notif_title">暗纱值守中</string>
+    <string name="notif_text">正在感知屏幕亮度并自动盖纱</string>
+    <string name="notif_action_stop">停止</string>
+</resources>

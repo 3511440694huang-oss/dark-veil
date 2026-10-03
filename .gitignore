@@ -1,0 +1,12 @@
+*.iml
+.gradle/
+build/
+local.properties
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+.kotlin/
+__pycache__/
+*.pyc
+tools/promo_check/

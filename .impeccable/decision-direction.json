@@ -1,0 +1,120 @@
+{
+  "title": "选择暗纱的视觉世界",
+  "question": "掷骰结果：分配方向为「磷光值守」。保留它、选择替代方案，或重掷。（第 4 个同分方向「可变字体标本」留在重掷池，未占卡位。）",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "磷光值守 · 深夜监测仪",
+      "kicker": "THE ROLL",
+      "lineage": "深夜广播监听室 / 老式磷光仪器面板",
+      "thesis": "把压暗变成一场深夜值守：检测信号以磷光呈现在暗室面板上，光只属于数据。",
+      "palette": ["#0A0E12", "#161C24", "#FFB04A", "#C9CFD6", "#58616C"],
+      "materials": ["哑光酚醛面板", "磷光余晖", "丝印刻字", "磨砂玻璃仪表窗"],
+      "viewport": "首屏是一块亮着的仪表：顶部品牌与值守状态灯，中央一条随屏幕白度呼吸的琥珀信号线，下方强度与速度两枚带刻度的拨档。",
+      "risk": "怀旧仪器容易滑向复古滤镜；琥珀光必须克制到只属于数据。",
+      "raised": [
+        {"from": "challenger-wayfinding", "raise": "借自机场导视：代价直白——耗电与兼容性提示以标识排版直陈，所见即代价。"},
+        {"from": "challenger-lexicon", "raise": "借自词典图版：色彩隔离——界面近单色，色彩只出现在被框住的数据图版里。"}
+      ],
+      "comp": ".impeccable/mocks/decision/assigned.webp"
+    },
+    {
+      "id": "model-pick",
+      "label": "天文台暗适应 · 红光值守",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "天文台夜班 / 红光暗适应",
+      "thesis": "天文学家花四十分钟守护夜视：界面是一间暗适应观测室，红光与星表精度守护你的夜间视力。",
+      "palette": ["#080B14", "#141B28", "#D2554B", "#AEB9C6", "#39445A"],
+      "materials": ["红光照明", "观测日志", "镜片镀膜反射", "星表排版"],
+      "viewport": "首屏如观测室墙面：暗蓝夜空底、红光刻度、日志式排版，状态区是一行「夜视守护中」的观测记录。",
+      "risk": "星空/月光符号靠近品类俗套；红光须保持学术而非警示感。",
+      "comp": ".impeccable/mocks/decision/model-pick.webp"
+    },
+    {
+      "id": "challenger-saville",
+      "label": "厂牌目录（哑光黑 · 白线脉冲）",
+      "verdict": "competitive",
+      "lineage": "Factory Records / Peter Saville 唱片封套系统",
+      "thesis": "把每次调节当作一张哑光黑唱片封套：白细线脉冲独占版面，状态用代码而非标签说话。",
+      "palette": ["#0B0B0D", "#F1EFE9", "#E8503A", "#8A8E94"],
+      "materials": ["哑光卡纸", "白细线印刷", "色块编码", "大留白"],
+      "viewport": "首屏近乎全黑：一条白细线脉冲横贯上部（检测信号），下方小号刻字标注状态，强度是一条色带代码。",
+      "case": "融合顺畅：哑光黑与信号线天生配对；窄输于清晰度——编码系统对普通用户有学习成本。",
+      "risk": "极简编码可能牺牲可用性，小白用户需要「解码」。",
+      "comp": ".impeccable/mocks/decision/challenger-saville.webp",
+      "hero": "https://impeccable.style/worlds/cards/brand-identity-canon-saville-catalog-sleeve-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/brand-identity-canon-saville-catalog-sleeve.webp"
+    },
+    {
+      "id": "challenger-orienteering",
+      "label": "图层越野图（固定地形 · 活动路线）",
+      "verdict": "competitive",
+      "lineage": "定向越野地图与图例（ISOM 标准）",
+      "thesis": "屏幕内容＝地形，压暗＝浮在地形上的活动图层：你永远能看清自己在哪一层。",
+      "palette": ["#EDE9DC", "#B08A4F", "#6E8F55", "#4A6FA5", "#7B4FA5"],
+      "materials": ["ISO 标准色语", "等高线", "紫色路线层", "图例表"],
+      "viewport": "首屏是深色底上的「图层剖面」：底层灰阶示意内容，上层紫色示意暗纱层，两层的开关与强度直接可调。",
+      "case": "融合强：图层隐喻就是产品机制本身；窄输于认同——越野受众与夜间手机场景有距离。",
+      "risk": "地图信息密度与「低刺激」相性冲突，需要大幅抽象。",
+      "comp": ".impeccable/mocks/decision/challenger-orienteering.webp",
+      "hero": "https://impeccable.style/worlds/cards/notation-diagram-systems-orienteering-map-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/notation-diagram-systems-orienteering-map.webp"
+    },
+    {
+      "id": "challenger-bitmap",
+      "label": "位图标本（像素即屏幕）",
+      "verdict": "competitive",
+      "lineage": "Emigre 杂志位图字体标本",
+      "thesis": "像素是屏幕的物理现实：低分辨率即美学，半调网点就是那层纱。",
+      "palette": ["#101010", "#F2EFE8", "#4C6EF5", "#7C7F84"],
+      "materials": ["位图字", "半调网点", "纸张纹理", "整数倍缩放"],
+      "viewport": "首屏：大号位图字「暗纱」占据上半，网点渐密暗示纱的厚度；控件严格整数倍像素对齐。",
+      "case": "融合顺：低分辨率采样＝产品检测机制的字面转译；窄输于认同——像素怀旧属于设计圈层。",
+      "risk": "小屏可读性与「8-bit 怀旧」风险；必须严格整数对齐才克制。",
+      "comp": ".impeccable/mocks/decision/challenger-bitmap.webp",
+      "hero": "https://impeccable.style/worlds/cards/emigre-bitmap-specimen-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/emigre-bitmap-specimen.webp"
+    },
+    {
+      "id": "challenger-wayfinding",
+      "label": "机场导视系统",
+      "verdict": "declined",
+      "lineage": "国际机场寻路标识（饱和黄板 · 黑体 · 白色图标）",
+      "thesis": "把每个状态当作一块导视牌：黄板、黑字、白图标，箭头严格贴边。",
+      "palette": ["#F5C400", "#111111", "#FFFFFF"],
+      "materials": ["饱和黄面板", "人文主义无衬线", "白色象形图标"],
+      "viewport": "一条条标识带：每屏只显示下一个决定。",
+      "case": "融合不佳：机场寻路与夜间护眼场景无共鸣。",
+      "kept": "代价直白——标识排版般一目了然的警示。",
+      "risk": "高饱和黄在安静的暗色系统里无法安放。",
+      "hero": "https://impeccable.style/worlds/cards/wayfinding-cartography-signage-terminal-yellow-wayfinding-hero.webp"
+    },
+    {
+      "id": "challenger-lexicon",
+      "label": "十九世纪词典版",
+      "verdict": "declined",
+      "lineage": "十九世纪词典页（肩部索引 · 彩版隔离）",
+      "thesis": "把设置当作词条：定宽正文、肩部索引，色彩只出现在被框住的图版里。",
+      "palette": ["#F4ECD9", "#1A1A1A", "#B03A2E", "#2E6E5E", "#1F4E8C"],
+      "materials": ["暖色纸", "刻版黑", "彩色图版", "肩部索引"],
+      "viewport": "一本摊开的词典，肩部拇指索引随内容推移。",
+      "case": "融合不佳：词典阅读与屏幕调节无关。",
+      "kept": "色彩隔离——色彩只出现在被框住的图版。",
+      "risk": "奶油纸色与深色系统冲突。",
+      "hero": "https://impeccable.style/worlds/cards/rw-lexicon-shoulder-and-plate-hero.webp"
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code", "toggle": true},
+  "canon": true,
+  "canonCard": {
+    "label": "品类标准（护眼工具）",
+    "thesis": "这个品类惯常的样子，以最高工艺执行：暖光、开关、太阳与月亮。",
+    "palette": ["#1A1D24", "#FFD479", "#7FD1B9", "#EDEDED"],
+    "materials": ["圆角卡片", "柔和光晕", "系统图标", "常规阴影"],
+    "viewport": "你见过的护眼应用：一个开关按钮 + 亮度卡片 + 暖色强调。",
+    "risk": "按设计就不会与竞品区分。",
+    "comp": ".impeccable/mocks/decision/canon.webp"
+  },
+  "steer": true
+}
